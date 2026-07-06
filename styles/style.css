@@ -17,7 +17,7 @@
   column-gap: 30px;
   max-width: 974px;
   margin-inline: auto;
-  padding-inline: 20px 2px;
+  padding-inline: 15px 8px;
 }
 
 .header__logo {
@@ -63,6 +63,7 @@
   justify-content: space-between;
   align-items: center;
   column-gap: 30px;
+  padding-top: 84px;
 }
 
 .hero__content {
@@ -80,6 +81,9 @@
 }
 
 .hero__name {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
   font-weight: 700;
   font-size: 50px;
   line-height: 1.18;
