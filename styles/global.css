@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+svg *[fill] {
+  fill: currentColor;
+}
+
+svg *[stroke] {
+  stroke: currentColor;
+}
+
+button {
+  font: inherit;
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+address {
+  font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: calc(944px + 15px * 2);
+  margin-inline: auto;
+  padding: 88px 15px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 27px 32px;
+  color: #1b2944;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  background-color: #ffbb01;
+  border-radius: 6px;
+  box-shadow: 0 4px 0 0 #b68500;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 2px solid #1b2944;
+  outline-offset: 1px;
+  border-radius: 6px;
+}
+
+.button:hover {
+  opacity: 0.9;
+  scale: 1.02;
+}
+
+.button--accent {
+  color: #fff;
+  padding: 12px 16px;
+  background-color: #ec1f46;
+  box-shadow: 0 2px 0 0 #ce1c3e;
+}
