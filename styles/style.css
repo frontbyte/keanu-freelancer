@@ -237,6 +237,12 @@
   min-width: 120px;
 }
 
+.portfolio-card__title {
+  max-width: 170px;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
 .gallery__list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
