@@ -7,7 +7,7 @@
 }
 
 .header {
-  padding-top: 40px;
+  padding-top: 36px;
 }
 
 .header__inner {
@@ -15,9 +15,9 @@
   justify-content: space-between;
   align-items: center;
   column-gap: 30px;
-  max-width: calc(944px + 15px * 2);
+  max-width: 974px;
   margin-inline: auto;
-  padding-inline: 15px;
+  padding-inline: 20px 2px;
 }
 
 .header__logo {
